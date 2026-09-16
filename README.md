@@ -2,7 +2,7 @@
 
 Writing your first Linux kernel module is an exciting milestone. You are leaving "user space" (where standard applications live) and entering "kernel space."
 
-This means you won't have access to the standard C library—so you can't use `printf()`—but you will have direct access to the core of the operating system.
+This means you won't have access to the standard C library—so you can't use `printf()`—but you will have direct access to the core of the operating system (`printk(KERN_INFO "Hello, Kernel World!\n")`.
 
 ### Build requirements:
 ```bash
