@@ -1,6 +1,14 @@
 # Hello world - Linux kernel module
 
+### Compile the module:
+```bash
+make
+```
 
+Load the module:
+```bash
+sudo insmod hello.ko
+```
 
 Module output:
 ```bash
