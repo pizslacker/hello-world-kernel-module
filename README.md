@@ -21,7 +21,7 @@ sudo insmod hello.ko
 sudo dmesg | tail -n 3
 ```
 
-```kernel
+```c
 [ 2189.554503] Hello, Kernel World!
 ```
 
@@ -31,6 +31,6 @@ sudo rmmod hello
 sudo dmesg | tail -n 3
 ```
 
-```kernel
+```c
 [ 2234.843365] Goodbye, Kernel World!
 ```
