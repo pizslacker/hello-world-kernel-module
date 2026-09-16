@@ -15,18 +15,20 @@ sudo apt install build-essential linux-headers-$(uname -r)
 make
 ```
 
-#### Load the module:
+#### Load the module, and tail the kernel log:
 ```bash
 sudo insmod hello.ko
+sudo dmesg | tail -n 3
 ```
 
 ```bash
 [ 2189.554503] Hello, Kernel World!
 ```
 
-#### Unload module:
+#### Unload module, and tail the kernel log:
 ```bash
 sudo rmmod hello
+sudo dmesg | tail -n 3
 ```
 
 ```bash
