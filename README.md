@@ -4,6 +4,12 @@ Writing your first Linux kernel module is an exciting milestone. You are leaving
 
 This means you won't have access to the standard C library—so you can't use `printf()`—but you will have direct access to the core of the operating system.
 
+### Build requirements:
+```bash
+sudo apt update
+sudo apt install build-essential linux-headers-$(uname -r)
+```
+
 #### Compile the module:
 ```bash
 make
