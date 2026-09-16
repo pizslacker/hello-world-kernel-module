@@ -9,13 +9,16 @@ make
 ```bash
 sudo insmod hello.ko
 ```
-
-#### Module load message:
+Which results in the following dmesg record:
 ```bash
 [ 2189.554503] Hello, Kernel World!
 ```
 
-#### Module unload message (exit):
+#### Unload module:
+```bash
+sudo rmmod hello
+```
+Module unload message (exit):
 ```bash
 [ 2234.843365] Goodbye, Kernel World!
 ```
