@@ -12,7 +12,9 @@ make
 ```bash
 sudo insmod hello.ko
 ```
-
+```bash
+sudo dmesg | tail -n 5
+```
 ```bash
 [ 2189.554503] Hello, Kernel World!
 ```
@@ -21,7 +23,9 @@ sudo insmod hello.ko
 ```bash
 sudo rmmod hello
 ```
-
+```bash
+sudo dmesg | tail -n 5
+```
 ```bash
 [ 2234.843365] Goodbye, Kernel World!
 ```
