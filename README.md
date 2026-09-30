@@ -1,6 +1,7 @@
 # Hello world - Linux kernel module
 
-This is really a least-effort, minimal skeleton module just to be able to say: "Yeah, I've made a Linux kernel module".
+This is really a least-effort, minimal skeleton module just to be able to say:
+  > "Yeah, I've made a Linux kernel module".
 
 #### Compile the module:
 ```bash
