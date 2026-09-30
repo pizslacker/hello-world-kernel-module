@@ -11,8 +11,6 @@ make
 #### Load the module:
 ```bash
 sudo insmod hello.ko
-```
-```bash
 sudo dmesg | tail -n 5
 ```
 ```C
@@ -22,8 +20,6 @@ sudo dmesg | tail -n 5
 #### Unload module:
 ```bash
 sudo rmmod hello
-```
-```bash
 sudo dmesg | tail -n 5
 ```
 ```C
